@@ -1,8 +1,9 @@
-import { useRouter } from 'next/router';
+"use client";
+import { useParams, useRouter } from "next/navigation";
 
 export default function OficinaPage() {
   const router = useRouter();
-  const { id } = router.query;
+  const { id } = useParams();
 
   return (
     <div>
