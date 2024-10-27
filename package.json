@@ -8,11 +8,12 @@
     "start": "next start",
     "lint": "next lint"
   },
-"dependencies": {
-  "next": "13.x.x",
-  "react": "18.x.x",
-  "react-dom": "18.x.x"
-},
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "next": "13.x.x",
+    "react": "18.x.x",
+    "react-dom": "18.x.x"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",

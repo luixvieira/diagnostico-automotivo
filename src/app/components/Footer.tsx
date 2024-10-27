@@ -1,9 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-gray-200 p-4 mt-8">
-      <div className="container mx-auto text-center">
-        <p>&copy; 2024 AutoDiag. Todos os direitos reservados.</p>
-      </div>
+    <footer className="bg-gray-900 text-gray-400 p-6 mt-8 text-center shadow-inner">
+      <p className="text-sm tracking-wide">&copy; 2024 AutoDiag. Todos os direitos reservados.</p>
     </footer>
   );
 }
